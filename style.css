@@ -38,6 +38,7 @@ div {
     /*fabrizio fix later*/
     margin-top: 20px;
 }
+.grid-container
 
 @media (max-width: 576px) {
     ul{
