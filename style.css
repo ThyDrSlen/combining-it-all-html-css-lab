@@ -1,0 +1,23 @@
+.header-flex{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:25px; 
+    background:#c4c4c4;
+    color:white;
+}
+
+
+a {
+    color:white;
+    text-decoration: none;
+}
+ul{
+    display:flex;
+    gap:25px;
+    padding:10px;
+    
+}
+li{
+    list-style-type: none;
+}
