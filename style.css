@@ -1,28 +1,30 @@
-.header-flex{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    padding:25px; 
-    background:#c4c4c4;
-    color:white;
+.header-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    background: #c4c4c4;
+    color: white;
 }
 
 
 a {
-    color:white;
+    color: white;
     text-decoration: none;
 }
-ul{
-    display:flex;
-    gap:25px;
-    padding:10px;
-    
+
+ul {
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+
 }
-li{
+
+li {
     list-style-type: none;
 }
 
-h1{
+h1 {
     display: flex;
     justify-content: center;
     margin-top: 35px;
@@ -34,20 +36,36 @@ div {
     height: 240px;
     display: flex;
     align-items: center;
-    margin:auto;
+    margin: auto;
     /*fabrizio fix later*/
-    margin-top: 20px;
+    
 }
-.grid-container
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 200px;
+    margin-top:20px;
+    justify-content:center;
+
+}
+
+h3{
+    font-size:175%;
+}
+
 
 @media (max-width: 576px) {
-    ul{
+    ul {
         display: flex;
         justify-content: flex-start;
     }
+
     h2 {
         display: none;
     }
+
     div {
         width: 210px;
         height: 255px;
