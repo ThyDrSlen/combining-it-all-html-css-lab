@@ -21,3 +21,34 @@ ul{
 li{
     list-style-type: none;
 }
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+div {
+    background-color: #c4c4c4;
+    width: 350px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    margin:auto;
+    /*fabrizio fix later*/
+    margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+    ul{
+        display: flex;
+        justify-content: flex-start;
+    }
+    h2 {
+        display: none;
+    }
+    div {
+        width: 210px;
+        height: 255px;
+    }
+}
